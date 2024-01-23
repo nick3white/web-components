@@ -18,4 +18,6 @@ A more elaborate theme toggler - I'll write out a use explanation but short vers
 - provide themes as comma separated strings, eg `themes='dark,light,coolguy,etc'`
 - dive into the component to mess with the css.
 
-## *Note:* this is here because github is where most things are.  Usually I use [ sourcehut ](https://sr.ht/), and [that version of the repo](https://git.sr.ht/~jeremyparker/web-components) might be more up to date, depending on how hectic my life is at any given moment.
+***Note:* this is here because github is where most things are.  Usually I use [sourcehut](https://sr.ht/), and [that version of the repo](https://git.sr.ht/~jeremyparker/web-components) might be more up to date, depending on how hectic my life is at any given moment.**
+
+fwiw source hut is smol web so you should too
