@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="themes.css" />
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    <script type="module" src="theme-toggle.js"></script>
+    <script type="module" src="theme-button.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <theme-button theme='hongkong'></theme-button> -->
+    
+    <theme-toggle themes='hongkong,red-light,sea,wall-balloons,sparkle-purple,trees' ></theme-toggle>
+    <button hx-post="/clicked" hx-swap="outerHTML">
+      Click Me
+    </button>
+</body>
+
+</html>
